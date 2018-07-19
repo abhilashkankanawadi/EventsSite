@@ -1,0 +1,33 @@
+.right-link{
+  position:absolute;
+  transform:translate(+420%, -479%);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #d9edf7;
+  padding: 20px;
+}
+
+.left-link{
+  position:absolute;
+  transform:translate(+50%, -445%);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #d9edf7;
+  padding: 22px;
+}
+ .event:hover{
+  background-color: #21A8FF;
+  text-decoration: none;
+}
+.ups{
+  display: inline-block;
+  width: 285px;
+  height: 250px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+  background-color:white;
+  box-shadow: 10px 10px 5px grey;
+}
+.shad:hover{
+  box-shadow: 10px 10px 5px red;
+}

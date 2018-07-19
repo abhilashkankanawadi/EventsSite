@@ -1,0 +1,15 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Agency extends Model
+{
+    protected $table ='agencies';
+    
+    public function organisers()
+    {
+      return $this->hasMany('App\Organiser');
+    }
+}
